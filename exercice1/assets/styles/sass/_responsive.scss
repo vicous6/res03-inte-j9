@@ -58,42 +58,6 @@
     }
         
     }
-   
-// page 1
 
-@media (max-width: 767.98px) {
-    
-    #body2{
-     & > header {
-            display: grid;
-            grid-template-rows: 4vh 4vh;
-            &>figure {
-                justify-self: center;
-                height: 4vh;
-            }
-    
-      & > footer{
-        height:12vh;
-        background-color:black;
-        color:white;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        font-size:30px;
-        width:100%;
-    }
-}
-}
-}
-@media (min-width: 768px) {
-   #body2{ 
-     & > header {
-            display: grid;
-            grid-template-columns: 0.1fr 1fr;
-            & > figure {
-                height: 8vh;
-            }
 
-       } 
-}
-}
+
