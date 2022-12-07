@@ -1,0 +1,99 @@
+@media (max-width: 767.98px) {
+
+    #body1 {
+        background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code-portrait.jpg");
+        & > header {
+            display: grid;
+            grid-template-rows: 4vh 4vh;
+            &>figure {
+                justify-self: center;
+                height: 4vh;
+            }
+
+        }
+        & > main {
+        &>section {
+            &>h1 {
+                font-size: 84px;
+                 text-align:center;
+            }
+            &>h2 {
+                font-size: 63px;
+            }
+        }
+    }
+
+ 
+    }
+}
+
+@media (min-width: 768px) {
+
+    #body1 {
+        background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+
+
+        & > header {
+            display: grid;
+            grid-template-columns: 0.1fr 1fr;
+            &>figure {
+                height: 8vh;
+            }
+
+       } 
+        
+         & > main {
+        &>section {
+            &>h1 {
+                font-size: 112px;
+               
+            }
+            &>h2 {
+                font-size: 83px;
+            }
+        }
+    }
+
+
+    }
+        
+    }
+   
+// page 1
+
+@media (max-width: 767.98px) {
+    
+    #body2{
+     & > header {
+            display: grid;
+            grid-template-rows: 4vh 4vh;
+            &>figure {
+                justify-self: center;
+                height: 4vh;
+            }
+    
+      & > footer{
+        height:12vh;
+        background-color:black;
+        color:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        width:100%;
+    }
+}
+}
+}
+@media (min-width: 768px) {
+   #body2{ 
+     & > header {
+            display: grid;
+            grid-template-columns: 0.1fr 1fr;
+            & > figure {
+                height: 8vh;
+            }
+
+       } 
+}
+}

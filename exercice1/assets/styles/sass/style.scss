@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "vars";
+@import "reset";
+@import "responsive";
+#body1 {
+    height: 110vh;
+
+    &>header {
+      
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+    font-size:30px;
+        height: 8vh;
+        display:grid;
+        &>figure {
+         
+            
+            & > img{
+               height:100%;
+            }
+        }
+        &>ul {
+            display: flex;
+            justify-content:center;
+            align-items :center;
+         
+            & > li{
+                padding-left:7vh;
+                 padding-right:7vh;
+                font-size:1.4rem; 
+                }
+        }
+    }
+    &>main {
+        height: 90vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    &>section {
+        
+        
+        height: 20%;
+        margin:auto;
+    
+              & > h1{
+            // font-size:112px;
+            color:white;
+        }
+        & >h2{
+            // font-size:91px;
+            color:grey;
+        }
+  }  }
+
+
+    & > footer{
+        height:12vh;
+        background-color:black;
+        color:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        width:100%;
+    }
+}
+
+// page1
+
+#body2{
+    &>header {
+      
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+    font-size:30px;
+        height: 8vh;
+        display:grid;
+        &>figure {
+         
+            
+            & > img{
+               height:100%;
+            }
+        }
+        &>ul {
+            display: flex;
+            justify-content:center;
+            align-items :center;
+         
+            & > li{
+                padding-left:7vh;
+                 padding-right:7vh;
+                font-size:1.4rem; 
+                }
+        }
+        
+        & > main{
+            width:100%;
+            & > section{
+                width:80%;
+                height:80%;
+                display:grid;
+                    grid-template-columns: 3fr 1.5fr;
+            }
+        }
+    }
+    
+}
